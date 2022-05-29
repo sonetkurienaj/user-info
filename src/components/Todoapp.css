@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: rgb(3, 54, 105);
+    font-family: sans-serif;
+}
+.todo-container{
+ 
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    color: silver;
+}
+
+
+/*input section area*/
+.input-section{
+    background-color: rgb(3, 54, 105);
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 14px 16px #00000066;
+
+}
+.btn{
+    background-color:rgb(3, 54, 105); 
+    color: silver; 
+    border: 2px solid silver;
+    border-radius: 7px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 5px 2px;
+    cursor: pointer;
+
+  
+}
+
+
+
+.input-section input{
+    border-radius:5px ;
+    border: 1px solid rgb(226, 226, 226);
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    background-color: rgb(3, 54, 105);
+    color: white;
+    }
+    input ::placeholder{
+        color: silver;
+    }
+
+/*listed item arragement*/
+
+ul{
+ 
+   
+    text-align: left;
+    padding: 0px;
+    color:gray;
+    
+    
+
+    
+}
+ul li{
+    display: flex;
+    list-style: none;
+    background-color: rgb(13, 61, 108);
+    padding: 15px;
+    border-radius: 5px;
+    color: gray;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px #00000066;
+
+}
+ul li i{
+   text-align: right;
+   flex: 1;
+   cursor: pointer;
+   
+}
